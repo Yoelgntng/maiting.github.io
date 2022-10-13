@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div, img {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+div {
+    display: block;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    padding: 13px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+nav .logo{
+    flex: 0 0 auto;
+    background: url('logogarena.png');
+    background-size: 100% 100%;
+    width: 117px;
+    height: 31px;
+    display: block;
+}
+nav ul {
+    display: flex;
+    list-style: none; 
+    align-items: center;
+    
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 30px;
+    
+}
+nav ul li a:hover {
+    color:rgb(168, 56, 56)
+}
+.logoin {
+    margin-right: 1vw;
+    line-height: 0;
+}
+.posisibg {
+    height: 720px;
+    position: relative;
+}
+.posisibg2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.background {
+    background-image: url('top-carousel-esports.98ae723e.jpg');
+    height: 100%;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+.textbg{
+    position: absolute;
+    bottom: 130px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.garenaesport {
+    margin: 0 0 10px;
+    font-size: 44px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #f8f9fa;
+}
+.textpemain {
+    font-size: 20px;
+    margin: 0 0 25px;
+    color: hsla(0,0%,100%,.8);
+    line-height: 1.7;
+    font-weight: 400;
+}
+.boxmid {
+    background: #f8f9fa;
+    padding: 67px 0 100px;
+}
+
+.boxlayanankami {
+    width: 1240px;
+    margin: auto;
+}
+.size_layanan {
+    font-size: 40px;
+}
+.jarak_layanan {
+    margin-bottom: 43px;
+    font-weight: 700;
+    text-align: center;
+}
+.posisibox_layanan {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.boxwhite {
+    background: url('boxwhite.png');
+    background-size: 100% 100%;
+    width: 389px;
+    height: 449px;
+    padding: 76px 40px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.imgesport {
+    background: url('imgesport.png');
+}
+.imggame {
+    background: url('imggame.png');
+}
+.imgkomunitas {
+    background: url('imgkomunitas.png');
+}
+.posisiimg {
+    background-size: 100% 100%;
+    margin: 0 auto 20px;
+    width: 179px;
+    height: 109px;
+}
+.textbox {
+    margin: 0 0 16px;
+    font-size: 24px;
+    font-weight:800;
+    color: #f04145;
+}
+.deskripsibox {
+    color: hsla(0,0%,45.9%,.85);
+    font-size: 14px;
+    line-height: 1.86;
+}
+.halaman_3a {
+    position: relative;
+}
+.halaman_3b {
+    margin: auto;
+    width: 1240px;
+}
+.posisi_3 {
+    width: 557px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.karir_1 {
+    width: 100%;
+}
+.karir_11 {
+    margin-bottom: 50px;
+    text-align: left;
+    margin: auto;
+}
+.textkarir_1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.textkarir_2 {
+    margin: 0 0 13px;
+    font-weight: 700;
+}
+.deskripsi_2 {
+    font-size: 14px;
+    color: hsla(0,0%,45.9%,.8);
+    line-height: 2;
+    margin-bottom: 50px;
+}
+.selengkapny {
+    display: inline-flex;
+    font-size: 24px;
+    padding: 5px 28px;
+    font-weight: 700;
+    position: relative;
+    border-radius: 100px;
+    color: white;
+    overflow: hidden;
+}
+.button_selengkapnya {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(-180deg,#f55,#f33939);
+}
+.text_selengkapny {
+    transform: translate(0);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+.background2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    background: url('background2.jpg') 0 50%;
+    background-size: cover;
+}
+.textbawah {
+    background: url('textbg.png');
+    background-size: 100% 100%;
+    position: absolute;
+    left: 120px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: -16px 0 0;
+    width: 606px;
+    height: 296px;
+}
+.lastbox {
+    background: #f8f9fa;
+    padding: 92px 0;
+}
+.lastbox_1 {
+    width: 1240px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.lastbox_2 {
+    flex: 1 1 auto;
+    margin: -30px 0 0;
+}
+.lastbox_3 {
+    text-align: left;
+    margin: auto;
+}
+.texthubungi {
+    font-size: 40px;
+    margin: 0 0 13px;
+    font-weight: 700;
+}
+.deskripsi_hubungi {
+    font-size: 14px;
+    color: hsla(0,0%,45.9%,.8);
+    line-height: 2;
+}
+.warnatext_hub a{
+    color: #f04145;
+}
+.boxgame_sup {
+    flex: 0 0 auto;
+    width: 422px;
+}
+.box_sup {
+    margin-bottom: 0;
+    height: 130px;
+    border-radius: 4px;
+    margin: 0 0 30px;
+    padding: 0 30px 0 40px;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    background: #fff;
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+}
+.textgame_sup {
+    font-size: 24px;
+    margin: 0 0 10px;
+    line-height: 1.2;
+}
+.textseleng {
+    margin-bottom: 0;
+}
+.warnaseleng {
+    margin: 0 0 58px;
+    font-size: 0;
+    color: #f04145;
+    display: block;
+    margin-bottom: 0;
+}
+.textseleng1 {
+    font-size: 16px;
+}
+.textseleng2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 6px 0 0;
+    font-weight: 700;
+}
+.imgsupport {
+    background-image: url('icon-support.png');
+}
+.sizeimg_sup {
+    width: 92px;
+    height: 68px;
+    background-size: 100% 100%;
+    flex: 0 0 auto;
+}
